@@ -148,7 +148,7 @@ function removerProduto() {
 
 
 //Scroll Revel
-ScrollReveal({reset: true});
+ScrollReveal({reset: false});
 ScrollReveal().reveal('.oferta-pai01 .oferta01', {duration: 1000});
 ScrollReveal().reveal('.oferta-pai01 .oferta02', {duration: 1000});
 ScrollReveal().reveal('.categorias-titulos h1 ', {duration: 1000});
