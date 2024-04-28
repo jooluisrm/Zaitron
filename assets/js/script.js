@@ -148,5 +148,13 @@ function removerProduto() {
 
 
 //Scroll Revel
-
+ScrollReveal({reset: true});
+ScrollReveal().reveal('.oferta-pai01 .oferta01', {duration: 1000});
+ScrollReveal().reveal('.oferta-pai01 .oferta02', {duration: 1000});
+ScrollReveal().reveal('.categorias-titulos h1 ', {duration: 1000});
+ScrollReveal().reveal('.categorias-titulos h2 ', {duration: 3000});
+ScrollReveal().reveal('.oferta-pai02', {duration: 1000});
+ScrollReveal().reveal('.grid-categorias', {duration: 2000});
+ScrollReveal().reveal('.product-grid' , {duration: 2000});
+ScrollReveal().reveal('.product-titulo' , {duration: 2000});
 
